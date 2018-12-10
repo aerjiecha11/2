@@ -15,6 +15,8 @@ void graphinitiate(adjmgraph*g) {
 	listinitiate(&g->vertices);
 }
 
+printf("aerjiecha");
+
 void insertvertex(adjmgraph*g, datatype vertex) {
 	if (listinsert(&g->vertices, g->vertices.size, vertex) == 0) {
 		printf("插入顶点时空间已满无法插入");
